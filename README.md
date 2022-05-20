@@ -1,7 +1,7 @@
 # Ruby on Rails
 Study Ruby! on Rails
 
-**Ruby 기본 문법 정리 - [[바로가기]]([https://github.com/binary-ho/TIL-public/tree/main/Ruby%20on%20Rails/Ruby](https://github.com/binary-ho/Ruby-on-Rails/tree/main/Ruby))**
+**Ruby 기본 문법 정리 - [[바로가기]](https://github.com/binary-ho/Ruby-on-Rails/tree/main/Ruby)**
 
 ### 참조
 서민구 Ruby For Impatient Nuby - **[[바로가기]](https://docs.google.com/document/d/15yEpi2ZMB2Lld5lA1TANt13SJ_cKygP314cqyKhELwQ/preview)** <br/>
