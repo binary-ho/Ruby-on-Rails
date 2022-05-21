@@ -3,7 +3,7 @@ Study Ruby! on Rails
 
 **Ruby 기본 문법 정리 - [[바로가기]](https://github.com/binary-ho/Ruby-on-Rails/tree/main/Ruby)** <br/>
 **마주친 Error와 해결 - [[바로가기]]()**
-<br><br>
+<br>
 
 **MVC in Rails - [[바로가기]](https://github.com/binary-ho/Ruby-on-Rails/blob/main/Rails/MVC.md)** <br>
 **CRUD in Rails - [[바로가기]](https://github.com/binary-ho/Ruby-on-Rails/tree/main/Rails)**
