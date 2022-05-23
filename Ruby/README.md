@@ -60,15 +60,15 @@ array = ['a', 'b', 'c', 'd', 'e']
 
 5. **Hash: key-value mapping 자료구조. 중괄호로 선언합니다. key-value 매칭하는 방법이 2지 있습니다.**
 ```ruby
-// 심볼로 저장하기
+# 심볼로 저장하기
 hash = {name: 'Homer Simpson', age: 39, 'weight': 117.9}
-// 위와 같이 저장할 경우 name, age, weight 모두 심볼로 저장됩니다.
+# 위와 같이 저장할 경우 name, age, weight 모두 심볼로 저장됩니다.
 
 
-// 일반 String으로 저장하기
+# 일반 String으로 저장하기
 hash2 = {'name'=>'Homer Simpson', 'age'=>39, 'weight'=>117.9}
 hash2['son'] = 'bart' 
-// 이 경우에는 String으로 저장된다.
+# 이 경우에는 String으로 저장된다.
 ```
 첫 번째 방법의 경우 단순히 편해보여서 사용했더니, **key값을 symbol로 저장해오고 있었다. 그렇기 때문에, key가 내가 생각한 것과 다르게 저장될 수 있으므로 항상 주의하자.** 아래 그림을 참고하자.
 ![hashSymbol](https://user-images.githubusercontent.com/71186266/169429632-522777f0-75c0-4635-a060-6747ddbb6d15.png)
@@ -131,16 +131,16 @@ end
 
 **줄 바꾸기에 `;`을 이용할 수도 있습니다.** 한 줄로 나타낸 if문을 보이겠습니다.
 ```ruby
-// 줄 바꾸기가 없는 버젼
+# 줄 바꾸기가 없는 버젼
 if 1 + 6 == 7 then puts "I'm Feeling Lucky!" else puts "what?" end
 
-// 세미콜론을 이용해 줄을 바꿔준 버젼
+# 세미콜론을 이용해 줄을 바꿔준 버젼
 if 1 + 6 == 7; puts "I'm Feeling Lucky!!" else puts "what??" end
 
-// if문의 반환값 자체를 String으로 해주고, 반환되는 값을 println한 버젼
+# if문의 반환값 자체를 String으로 해주고, 반환되는 값을 println한 버젼
 puts (if 1 + 6 == 7 then "I'm Feeling Lucky!!!" else "What???" end)
 
-// 영어처럼 나타내기! unless는 전체에 !를 씌워준 듯한 효과
+# 영어처럼 나타내기! unless는 전체에 !를 씌워준 듯한 효과
 puts "Lucky!" if 1 + 6 == 7
 puts "what?!" unless 0 + 6 == 7 
 ```
@@ -157,7 +157,7 @@ puts (1 + 6 == 7 ? "I'm Feeling Lucky!" : "what?")
 # 2.2 case문
 case문을 보이겠습니다. 매개변수를 전달 할 수도, 안 할 수도 있습니다. 전달하지 않는 경우, 위에서 부터 차례대로 실행되어 처음 참인 문장이 실행된 후에 종료합니다.
 ```ruby
-// 매개변수가 있는 경우, 매개변수와 조건을 비교합니다.
+# 매개변수가 있는 경우, 매개변수와 조건을 비교합니다.
 num = 7
 case num
 when 7; puts "num is 7"
@@ -165,7 +165,7 @@ when 4; puts "num is not 7"
 end
 
 
-// 매개변수가 없는 경우, 문장 자체의 참거짓을 판별합니다.
+# 매개변수가 없는 경우, 문장 자체의 참거짓을 판별합니다.
 num = 7
 case
 when num == 4; puts "num is not 7"
