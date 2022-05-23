@@ -32,11 +32,11 @@ Ruby는 everything is an object입니다. 즉, 모든 변수에서 메소드를 
 s1 = 'Hello Ruby'
 s2 = "Hello Ruby"
 
-// 문자열의 덧셈
+# 문자열의 덧셈
 s3 = 'Hello '
 s4 = 'Ruby'
 s3 + s4
-// 결과 => Hello Ruby 
+# 결과 => Hello Ruby 
 ```
 <br/>
 
